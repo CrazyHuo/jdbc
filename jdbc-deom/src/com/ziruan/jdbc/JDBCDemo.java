@@ -18,6 +18,7 @@ public class JDBCDemo {
         String url = "jdbc:mysql://127.0.0.1:3306/test?useSSL=false";
         String username = "root";
         String password = "root";
+        int a = 0;
         Connection conn = DriverManager.getConnection(url, username, password);
 
         // 3. 定义SQL
